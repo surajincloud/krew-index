@@ -1,0 +1,46 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: eks
+spec:
+  version: v0.1.2
+  homepage: https://github.com/surajincloud/kubectl-eks
+  shortDescription: Kubectl plugin for Amazon EKS
+  description: |
+    kubectl-eks plugin provides set of commands for users which will simplify operations for users while interacting with Amazon EKS clusters.
+  platforms:
+  - selector:
+      matchLabels:
+        os: darwin
+        arch: amd64
+    uri: https://github.com/surajincloud/kubectl-eks/releases/download/v0.1.2/kubectl-eks_0.1.2_darwin_amd64.tar.gz
+    sha256: 5b461618e68a93cdfc866fdde714ebf6d3156004c42237482e6ca5848a710f18
+    bin: kubectl-eks
+  - selector:
+      matchLabels:
+        os: darwin
+        arch: arm64
+    uri: https://github.com/surajincloud/kubectl-eks/releases/download/v0.1.2/kubectl-eks_0.1.2_darwin_arm64.tar.gz
+    sha256: 8fcd6f98fea244024e36b0785ccaa3808cb2966698024d623101992d7b9303e6
+    bin: kubectl-eks
+  - selector:
+      matchLabels:
+        os: linux
+        arch: amd64
+    uri: https://github.com/surajincloud/kubectl-eks/releases/download/v0.1.2/kubectl-eks_0.1.2_linux_amd64.tar.gz
+    sha256: 326ca8aa2c7a9a0f06c4ea8044224973a8d1a731acdd84765478be8e9a1fd94a
+    bin: kubectl-eks
+  - selector:
+      matchLabels:
+        os: linux
+        arch: arm64
+    uri: https://github.com/surajincloud/kubectl-eks/releases/download/v0.1.2/kubectl-eks_0.1.2_linux_arm64.tar.gz
+    sha256: 920e7544780deb3c0bd6abd5709ef704939749eef21a7cd3a20b6e8baed3bbf6
+    bin: kubectl-eks
+  - selector:
+      matchLabels:
+        os: windows
+        arch: amd64
+    uri: https://github.com/surajincloud/kubectl-eks/releases/download/v0.1.2/kubectl-eks_0.1.2_window_amd64.tar.gz
+    sha256: 085d3d8e1776cb38daadd0ca9c4198af83f61e39d3a4996879ce4f6ac63ff892
+    bin: kubectl-eks.exe
