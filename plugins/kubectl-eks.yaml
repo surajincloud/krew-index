@@ -14,33 +14,33 @@ spec:
         os: darwin
         arch: amd64
     uri: https://github.com/surajincloud/kubectl-eks/releases/download/v0.2.2/kubectl-eks_0.2.2_darwin_amd64.tar.gz
-    sha256: fcd01cff811db1f5e5814c3b685fbbaf98b0f67261f2620e6515fa11863ddfba
+    sha256: 457d11063c289a1dfae4612d75e5fe8a7785fad05e3e02ef362c95aa49b91515
     bin: kubectl-eks
   - selector:
       matchLabels:
         os: darwin
         arch: arm64
     uri: https://github.com/surajincloud/kubectl-eks/releases/download/v0.2.2/kubectl-eks_0.2.2_darwin_arm64.tar.gz
-    sha256: a37151fc6099a4b3c128a2b2d751f6ab687889a606f6dec783e2fd0a127c49ed
+    sha256: d319f0449408fbfc694b06d76e91f7b5ee9deb170228989b34c5888597c18cac
     bin: kubectl-eks
   - selector:
       matchLabels:
         os: linux
         arch: amd64
     uri: https://github.com/surajincloud/kubectl-eks/releases/download/v0.2.2/kubectl-eks_0.2.2_linux_amd64.tar.gz
-    sha256: 42a2e9108ce399db5291ae4d943487875a4f2ee7bc4b1202aa8455d8f2337a80
+    sha256: ed85b611b1efea72ffacdcc09365a14f10dafa72789c1b551ca710759767a14f
     bin: kubectl-eks
   - selector:
       matchLabels:
         os: linux
         arch: arm64
     uri: https://github.com/surajincloud/kubectl-eks/releases/download/v0.2.2/kubectl-eks_0.2.2_linux_arm64.tar.gz
-    sha256: 1e42bc54aacc7be1e1b3ed5c89323d8f788e2660949e20ca0dd58023ce1b2309
+    sha256: 32ad91f449ff717567b4c35bcb9bef4db5df655d8305b32077c4ab5afedcb536
     bin: kubectl-eks
   - selector:
       matchLabels:
         os: windows
         arch: amd64
     uri: https://github.com/surajincloud/kubectl-eks/releases/download/v0.2.2/kubectl-eks_0.2.2_window_amd64.tar.gz
-    sha256: f12b53844a4cab3278610535fc9b33ab3c47e5c908a98c2b7f36acfc3935e894
+    sha256: d492b10e59057b7b050a9b3dfab424b2b7419798fdce2d1730e6df127bc2bd61
     bin: kubectl-eks.exe
